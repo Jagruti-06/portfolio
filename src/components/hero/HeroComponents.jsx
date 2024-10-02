@@ -22,25 +22,25 @@ const HeroComponents = () => {
     },
     {
       icon: resume,
-      link: 'mailto:anikethbusavale03@gmail.com',
+      link: 'mailto:jagrutichikhale99@gmail.com',
       alt: 'Mail Icon',
       className: styles.icon2
     },
     {
       icon: github,
-      link: 'https://github.com/Aniketh003',
+      link: 'https://github.com/Jagruti-06',
       alt: 'GitHub Icon',
       className: styles.icon3
     },
     {
       icon: linkedin,
-      link: 'https://linkedin.com/in/aniketh03',
+      link: 'https://www.linkedin.com/in/jagruti-chikhale-11454a249/',
       alt: 'LinkedIn Icon',
       className: styles.icon5
     },
     {
       icon: instagram,
-      link: 'https://instagram.com/aniketh03_',
+      link: 'https://www.instagram.com/jagruti__chikhale',
       alt: 'Instagram Icon',
       className: styles.icon4
     },

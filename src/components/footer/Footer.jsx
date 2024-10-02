@@ -4,23 +4,23 @@ import line from '../../assets/arrow-line.svg'
 import { toast } from 'react-toastify'
 
 const Footer = () => {
-  const [emailCopied, setEmailCopied] = useState("anikethbusavale03@gmail.com")
+  const [emailCopied, setEmailCopied] = useState("jagrutichikhale99@gmail.com")
   const socialMediaLinks = [
     {
       icon: line,
-      link: "https://google.com",
+      link: "https://x.com/Jagruti0603",
       text: 'Twitter',
       className: styles.icon1
     },
     {
       icon: line,
-      link: 'https://github.com/Aniketh003',
+      link: 'https://github.com/Jagruti-06',
       text: 'GitHub',
       className: styles.icon3
     },
     {
       icon: line,
-      link: 'https://instagram.com/aniketh03_',
+      link: 'https://www.instagram.com/jagruti__chikhale',
       text: 'Instagram',
       className: styles.icon4
     },
@@ -29,19 +29,19 @@ const Footer = () => {
   const contactLinks = [
     {
       icon: line,
-      link: "https://drive.google.com/file/d/1bzCXMH_j-_PKojQk4-HIA9yGYLeswBrT/view",
+      link: "https://drive.google.com/file/d/1OCkKeJWXa94JYfE17qPUIn4igNZtFJpf/view?pli=1",
       text: "Resume",
       className: styles.icon8
     },
     {
       icon: line,
-      link: 'https://linkedin.com/in/aniketh03',
+      link: 'https://www.linkedin.com/in/jagruti-chikhale-11454a249/',
       text: 'LinkedIn',
       className: styles.icon5
     },
     {
       icon: line,
-      link: 'mailto:anikethbusavale03@gmail.com',
+      link: 'mailto:jagrutichikhale99@gmail.com',
       text: 'Mail Icon',
       className: styles.icon2
     },
@@ -73,7 +73,7 @@ const Footer = () => {
         setEmailCopied("Email copied")
         toast("Email copied !!");
         setTimeout(() => {
-          setEmailCopied("anikethbusavale03@gmail.com")
+          setEmailCopied("jagrutichikhale99@gmail.com")
         }, 1500);
       })
       .catch(err => {
@@ -85,7 +85,7 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.cover}>
         <div className={styles.main}>
-          <a href="/">अनिकेत भुसावळे</a>
+          <a href="/">जागृति चिखले</a>
           <div className={styles.links_container}>
             <div className={`${styles.social} ${styles.link_container}`}>
               <p>social</p>
@@ -122,14 +122,14 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.copyright}>
-          <p>© Aniketh Busavale 2024</p>
+          <p>© Jagruti Chikhale 2024</p>
           <div className={styles.email}>
             <h3>Get in touch (Click to copy)</h3>
             <h1 onClick={copyToClipboard}>{emailCopied}</h1>
           </div>
         </div>
         <div className={styles.heading}>
-          <h1>アニケス・ブサバリ</h1>
+          <h1>ジャグルータ・チカレ</h1>
         </div>
       </div>
     </div>
