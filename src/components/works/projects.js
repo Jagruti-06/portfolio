@@ -17,13 +17,6 @@ export const projects = [
         source: ""
     },
     {
-        title: "QR Generator",
-        videoUrl:QR_Generator,
-        techStack: ["react","api"],
-        code: "",
-        source: ""
-    },
-    {
         title: "Text Manipulate",
         videoUrl: textManipulate,
         techStack: ["react","tailwind"],
